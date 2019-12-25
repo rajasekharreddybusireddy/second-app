@@ -1,0 +1,18 @@
+<table class="table">
+    <thead class="thead-dark">
+      <tr>        
+        <th scope="col">USERID</th>
+        <th scope="col">ID</th>
+        <th scope="col">TITLE</th>
+        <th scope="col">BODY</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let post of posts">       
+        <td>{{post.userId}}</td> 
+        <td>{{post.id}}</td>
+        <td>{{post.title}}</td>        
+        <td>{{post.body}}</td>  
+        </tr>    
+    </tbody>
+  </table>
